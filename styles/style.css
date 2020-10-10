@@ -352,6 +352,7 @@ p {
     font-family: inherit;
     padding: 15px;
     margin: 2% 0;
+    border: none;
 }
 
 .form_container input:last-child{
