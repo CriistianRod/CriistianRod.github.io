@@ -1,0 +1,389 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #091422;
+    color: whitesmoke;
+    font-family: 'Kumbh Sans', sans-serif;
+    /* font-weight: lighter; */
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: inherit;
+    /* height: inherit; */
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.header{
+    background-color: #39B8BC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    position: fixed;
+    width: 100%;
+}
+
+.header .logo{
+    margin: 0;
+    font-size: 1.4em;
+}
+
+.header a{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: inherit;
+    text-decoration: none;
+}
+
+.header ul{
+    display: flex;
+    height: inherit;
+}
+
+.header ul li{
+    height: inherit;
+}
+
+section {
+    /* height: calc(81vh - 2px); */
+    /* border-bottom: 1px solid white; */
+    padding-top: 19vh;
+    /* padding-bottom: 3vh; */
+}
+
+h1{
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* .carousel img{
+    width: 45vw;
+    height: 60vh;
+    margin-left: -5%;
+    padding: 12vh 0;
+    border-collapse: separate;
+    border-radius: 30px;
+} */
+
+.carousel .img{
+    background: url('../assets/online_classes.jpg');
+    background-size: 100% 100%;
+    width: 45vw;
+    height: 60vh;
+    object-fit: cover;
+    /* margin: 8vh 0; */
+    border-radius: 5px;
+
+}
+
+.presentation {
+    text-align: center;
+    margin: 0 8%;
+    margin-top: -3%;
+    padding: 3% 0;
+    padding-top: 10px;
+    /* height: inherit; */
+    /* border: solid 1px white; */
+    /* background: white; */
+    /* color: #091422; */
+
+}
+
+.presentation img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.areas {
+    display: inline-block;
+    text-align: center;
+}
+
+.area_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: ;KU */
+}
+
+.area {
+    width: 300px;
+    height: 29vh;
+    /* border: solid 1px white; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.area h3{
+    display: inherit;
+    /* align-items: center; */
+    color: #39B8BC;
+    /* height: fit-content; */
+    margin: 0;
+    margin-bottom: 3%;
+
+}
+
+.description_container{
+    background: #EAEBED;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.area_description {
+    display: inherit;
+    align-items: flex-end;
+    /* height: fit-content; */
+    color: #091422;
+    padding: 0;
+    margin: 0 5%;
+}
+
+.area_img{
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    background-size: 100% 180% !important;
+    border-bottom-right-radius: 0;
+}
+
+.math{
+    background: url('../assets/math.jpg');
+}
+
+.lang {
+    background: url('../assets/reading3.jpg');
+}
+
+.english {
+    background: url('../assets/english.jpg');
+}
+
+.physics {
+    background: url('../assets/physics.jpg');
+}
+
+.social {
+    background: url('../assets/social.jpg');
+}
+
+.code {
+    background: url('../assets/code.jpg');              
+}
+
+.experience {
+    text-align: center;
+}
+
+.experience h1 {
+    margin-top: 0;
+    padding-top: 2vh;
+}
+
+.experience_container {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0 2vw; */
+    /* padding-bottom: 10vh; */
+}
+
+.story {
+    width: 30vw;
+    height: 70vh;
+    /* border: solid 1px white; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* background: #39B8BC; */
+}
+
+.story h2{
+    color: #39B8BC;
+    margin: 2vh 0;
+}
+
+.story_description{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0;
+    padding: 1vh 1vw;
+    padding-bottom: 2vh;
+}
+
+.story_img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.img_mel{
+    background-image: url(../assets/img_mel.jpg);
+    background-position: 25% 25%;
+}
+
+.img_diego{
+    background-image: url(../assets/img_diego.jpg);
+    background-position: 25% 65%;
+}
+
+.about{
+    height: 77vh;
+    text-align: center;
+}
+
+.about_container{
+    display: flex;
+}
+
+.about_me_img{
+    background-image: url('../assets/me2.jpg');
+    height: 55vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: 25% 37%;
+    border-radius: 10px;
+}
+
+.about_presentation {
+    text-align: center;
+    margin: 0 5%;
+    padding: 3% 0;
+}
+
+.about_presentation h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.contact {
+    height: 75vh;
+    padding-top: 9vh;
+    text-align: center;
+}
+
+.contact_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    align-items: center;
+}
+
+.contact h3 {
+    font-weight: lighter;
+    font-size: 4.5em;
+    margin: 0;
+}
+
+.contact .container {
+    height: inherit;
+}
+
+.contact_fee_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_fee_container p{
+    margin: 0;
+}
+
+.contact_info_container img {
+    vertical-align: bottom;
+}
+
+.contact_info_container p{
+    margin-top: 3vh;
+}
+
+.form_container{
+    display: inherit;
+    flex-direction: column;
+    padding: 0 10%;
+    width: 100%;
+    margin-top: -30px;
+}
+
+.form_container input{
+    margin: 2% 0;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    padding: 0 15px;
+    font-family: inherit;
+}
+
+.form_container .contact_description{
+    height: 100px;
+    border-radius: 15px;
+    font-family: inherit;
+    padding: 15px;
+    margin: 2% 0;
+}
+
+.form_container input:last-child{
+    background: #39B8BC;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    background: #39B8BC;
+    height: 9vh;
+}
+
+.footer_container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+.footer_container ul{
+    display: inherit;
+    padding: 0;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.footer_container li{
+    margin: 0 40px;
+}
+
+.footer_container a{
+    text-decoration: none;
+    color: inherit;
+}
