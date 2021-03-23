@@ -1,2 +1,2 @@
 # CristianProfe
-My own teacher professional webpage
+I fully designed, developed and deployed my own teacher professional webpage.
